@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Parse.enableLocalDatastore()
         
+        Parse.enableDataSharingWithApplicationGroupIdentifier("");
+
         Parse.setApplicationId("16ktYTkz6kuPyT81SZtxP4CXDV0POwVV5szF7kYP",
             clientKey: "Ev89WaE9EVFmNXh6HB6LXLlJArnsG74PwiF8gbMT")
         

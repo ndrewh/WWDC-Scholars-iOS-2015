@@ -29,7 +29,16 @@
 		408211721B0E292300D567AC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4082116C1B0E292300D567AC /* ParseFacebookUtils.framework */; };
 		408211731B0E292300D567AC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4082116D1B0E292300D567AC /* ParseFacebookUtilsV4.framework */; };
 		408211761B0E296A00D567AC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408211751B0E296A00D567AC /* DataManager.swift */; };
-		409A24621B0E3346005509AF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408211681B0E292300D567AC /* Parse.framework */; };
+		409A11DF1B0E47D40096462D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408211681B0E292300D567AC /* Parse.framework */; };
+		409A11E51B0E49EC0096462D /* ScholarTableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A11E41B0E49EC0096462D /* ScholarTableRow.swift */; };
+		409A11E61B0E4EC00096462D /* 11358626_821050244645510_1909173720_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408211661B0E254400D567AC /* 11358626_821050244645510_1909173720_n.jpg */; };
+		409A11E71B0E4EC40096462D /* 11358626_821050244645510_1909173720_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 408211661B0E254400D567AC /* 11358626_821050244645510_1909173720_n.jpg */; };
+		409A246C1B0E3618005509AF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A246B1B0E3618005509AF /* InterfaceController.swift */; };
+		409A246E1B0E3618005509AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409A246D1B0E3618005509AF /* Images.xcassets */; };
+		409A24721B0E3619005509AF /* WWDC Scholars 2015 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 409A24711B0E3618005509AF /* WWDC Scholars 2015 WatchKit App.app */; };
+		409A247A1B0E3619005509AF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409A24781B0E3619005509AF /* Interface.storyboard */; };
+		409A247C1B0E3619005509AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409A247B1B0E3619005509AF /* Images.xcassets */; };
+		409A247F1B0E3619005509AF /* WWDC Scholars 2015 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 409A24671B0E3618005509AF /* WWDC Scholars 2015 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C00C27401B0D5C9C008C19AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C273F1B0D5C9C008C19AE /* AppDelegate.swift */; };
 		C00C27421B0D5C9C008C19AE /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C27411B0D5C9C008C19AE /* LocationViewController.swift */; };
 		C00C27451B0D5C9C008C19AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00C27431B0D5C9C008C19AE /* Main.storyboard */; };
@@ -46,6 +55,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		409A24731B0E3619005509AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00C27321B0D5C9C008C19AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409A24701B0E3618005509AF;
+			remoteInfo = "WWDC Scholars 2015 WatchKit App";
+		};
+		409A247D1B0E3619005509AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00C27321B0D5C9C008C19AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409A24661B0E3618005509AF;
+			remoteInfo = "WWDC Scholars 2015 WatchKit Extension";
+		};
 		C00C27501B0D5C9C008C19AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C00C27321B0D5C9C008C19AE /* Project object */;
@@ -54,6 +77,20 @@
 			remoteInfo = "WWDC Scholars 2015";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		409A24861B0E3619005509AF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				409A247F1B0E3619005509AF /* WWDC Scholars 2015 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		40560B391B0DA16A00C3EFB4 /* wwdc2015-top-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wwdc2015-top-logo.png"; sourceTree = "<group>"; };
@@ -79,6 +116,16 @@
 		4082116C1B0E292300D567AC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		4082116D1B0E292300D567AC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		408211751B0E296A00D567AC /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		409A11E41B0E49EC0096462D /* ScholarTableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScholarTableRow.swift; sourceTree = "<group>"; };
+		409A11E81B0E521C0096462D /* WWDC Scholars 2015.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WWDC Scholars 2015.entitlements"; sourceTree = "<group>"; };
+		409A24671B0E3618005509AF /* WWDC Scholars 2015 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WWDC Scholars 2015 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409A246A1B0E3618005509AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409A246B1B0E3618005509AF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		409A246D1B0E3618005509AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		409A24711B0E3618005509AF /* WWDC Scholars 2015 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC Scholars 2015 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409A24771B0E3619005509AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409A24791B0E3619005509AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		409A247B1B0E3619005509AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C00C273A1B0D5C9C008C19AE /* WWDC Scholars 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC Scholars 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00C273E1B0D5C9C008C19AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C00C273F1B0D5C9C008C19AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +153,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		409A24641B0E3618005509AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C00C27371B0D5C9C008C19AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,7 +177,7 @@
 				407911B21B0E2AEE00A582FF /* CoreGraphics.framework in Frameworks */,
 				407911B31B0E2AEE00A582FF /* CoreLocation.framework in Frameworks */,
 				407911AD1B0E2AC400A582FF /* AudioToolbox.framework in Frameworks */,
-				409A24621B0E3346005509AF /* Parse.framework in Frameworks */,
+				409A11DF1B0E47D40096462D /* Parse.framework in Frameworks */,
 				4082116F1B0E292300D567AC /* ParseUI.framework in Frameworks */,
 				408211701B0E292300D567AC /* ParseCrashReporting.framework in Frameworks */,
 				408211731B0E292300D567AC /* ParseFacebookUtilsV4.framework in Frameworks */,
@@ -202,11 +256,50 @@
 			name = Parse;
 			sourceTree = "<group>";
 		};
+		409A24681B0E3618005509AF /* WWDC Scholars 2015 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				409A246B1B0E3618005509AF /* InterfaceController.swift */,
+				409A246D1B0E3618005509AF /* Images.xcassets */,
+				409A24691B0E3618005509AF /* Supporting Files */,
+				409A11E41B0E49EC0096462D /* ScholarTableRow.swift */,
+			);
+			path = "WWDC Scholars 2015 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		409A24691B0E3618005509AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				409A246A1B0E3618005509AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		409A24751B0E3619005509AF /* WWDC Scholars 2015 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				409A24781B0E3619005509AF /* Interface.storyboard */,
+				409A247B1B0E3619005509AF /* Images.xcassets */,
+				409A24761B0E3619005509AF /* Supporting Files */,
+			);
+			path = "WWDC Scholars 2015 WatchKit App";
+			sourceTree = "<group>";
+		};
+		409A24761B0E3619005509AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				409A24771B0E3619005509AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C00C27311B0D5C9C008C19AE = {
 			isa = PBXGroup;
 			children = (
 				C00C273C1B0D5C9C008C19AE /* WWDC Scholars 2015 */,
 				C00C27521B0D5C9C008C19AE /* WWDC Scholars 2015Tests */,
+				409A24681B0E3618005509AF /* WWDC Scholars 2015 WatchKit Extension */,
+				409A24751B0E3619005509AF /* WWDC Scholars 2015 WatchKit App */,
 				C00C273B1B0D5C9C008C19AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,6 +309,8 @@
 			children = (
 				C00C273A1B0D5C9C008C19AE /* WWDC Scholars 2015.app */,
 				C00C274F1B0D5C9C008C19AE /* WWDC Scholars 2015Tests.xctest */,
+				409A24671B0E3618005509AF /* WWDC Scholars 2015 WatchKit Extension.appex */,
+				409A24711B0E3618005509AF /* WWDC Scholars 2015 WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,6 +318,7 @@
 		C00C273C1B0D5C9C008C19AE /* WWDC Scholars 2015 */ = {
 			isa = PBXGroup;
 			children = (
+				409A11E81B0E521C0096462D /* WWDC Scholars 2015.entitlements */,
 				40560B381B0DA16100C3EFB4 /* Images */,
 				C00C27731B0D5CF1008C19AE /* Library */,
 				C00C277C1B0D63D6008C19AE /* Model */,
@@ -335,6 +431,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		409A24661B0E3618005509AF /* WWDC Scholars 2015 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409A24831B0E3619005509AF /* Build configuration list for PBXNativeTarget "WWDC Scholars 2015 WatchKit Extension" */;
+			buildPhases = (
+				409A24631B0E3618005509AF /* Sources */,
+				409A24641B0E3618005509AF /* Frameworks */,
+				409A24651B0E3618005509AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409A24741B0E3619005509AF /* PBXTargetDependency */,
+			);
+			name = "WWDC Scholars 2015 WatchKit Extension";
+			productName = "WWDC Scholars 2015 WatchKit Extension";
+			productReference = 409A24671B0E3618005509AF /* WWDC Scholars 2015 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		409A24701B0E3618005509AF /* WWDC Scholars 2015 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409A24801B0E3619005509AF /* Build configuration list for PBXNativeTarget "WWDC Scholars 2015 WatchKit App" */;
+			buildPhases = (
+				409A246F1B0E3618005509AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WWDC Scholars 2015 WatchKit App";
+			productName = "WWDC Scholars 2015 WatchKit App";
+			productReference = 409A24711B0E3618005509AF /* WWDC Scholars 2015 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		C00C27391B0D5C9C008C19AE /* WWDC Scholars 2015 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C00C27591B0D5C9C008C19AE /* Build configuration list for PBXNativeTarget "WWDC Scholars 2015" */;
@@ -342,10 +471,12 @@
 				C00C27361B0D5C9C008C19AE /* Sources */,
 				C00C27371B0D5C9C008C19AE /* Frameworks */,
 				C00C27381B0D5C9C008C19AE /* Resources */,
+				409A24861B0E3619005509AF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				409A247E1B0E3619005509AF /* PBXTargetDependency */,
 			);
 			name = "WWDC Scholars 2015";
 			productName = "WWDC Scholars 2015";
@@ -379,8 +510,20 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "WWDC-Scholars";
 				TargetAttributes = {
+					409A24661B0E3618005509AF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					409A24701B0E3618005509AF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 					C00C27391B0D5C9C008C19AE = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YQ3FQN6Z53;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C00C274E1B0D5C9C008C19AE = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -403,11 +546,33 @@
 			targets = (
 				C00C27391B0D5C9C008C19AE /* WWDC Scholars 2015 */,
 				C00C274E1B0D5C9C008C19AE /* WWDC Scholars 2015Tests */,
+				409A24661B0E3618005509AF /* WWDC Scholars 2015 WatchKit Extension */,
+				409A24701B0E3618005509AF /* WWDC Scholars 2015 WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		409A24651B0E3618005509AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A24721B0E3619005509AF /* WWDC Scholars 2015 WatchKit App.app in Resources */,
+				409A246E1B0E3618005509AF /* Images.xcassets in Resources */,
+				409A11E61B0E4EC00096462D /* 11358626_821050244645510_1909173720_n.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409A246F1B0E3618005509AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A247A1B0E3619005509AF /* Interface.storyboard in Resources */,
+				409A247C1B0E3619005509AF /* Images.xcassets in Resources */,
+				409A11E71B0E4EC40096462D /* 11358626_821050244645510_1909173720_n.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C00C27381B0D5C9C008C19AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,6 +595,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		409A24631B0E3618005509AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A11E51B0E49EC0096462D /* ScholarTableRow.swift in Sources */,
+				409A246C1B0E3618005509AF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C00C27361B0D5C9C008C19AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,6 +633,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		409A24741B0E3619005509AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409A24701B0E3618005509AF /* WWDC Scholars 2015 WatchKit App */;
+			targetProxy = 409A24731B0E3619005509AF /* PBXContainerItemProxy */;
+		};
+		409A247E1B0E3619005509AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409A24661B0E3618005509AF /* WWDC Scholars 2015 WatchKit Extension */;
+			targetProxy = 409A247D1B0E3619005509AF /* PBXContainerItemProxy */;
+		};
 		C00C27511B0D5C9C008C19AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C00C27391B0D5C9C008C19AE /* WWDC Scholars 2015 */;
@@ -467,6 +651,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		409A24781B0E3619005509AF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409A24791B0E3619005509AF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		C00C27431B0D5C9C008C19AE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -486,6 +678,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		409A24811B0E3619005509AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WWDC_Scholars_2015_WatchKit_Extension;
+				INFOPLIST_FILE = "WWDC Scholars 2015 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		409A24821B0E3619005509AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WWDC_Scholars_2015_WatchKit_Extension;
+				INFOPLIST_FILE = "WWDC Scholars 2015 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		409A24841B0E3619005509AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WWDC Scholars 2015 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		409A24851B0E3619005509AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WWDC Scholars 2015 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		C00C27571B0D5C9C008C19AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -573,8 +821,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WWDC Scholars 2015/WWDC Scholars 2015.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/WWDC",
+					Scholars,
+					2015,
 					"$(PROJECT_DIR)/WWDC",
 					Scholars,
 					2015,
@@ -582,6 +836,7 @@
 				INFOPLIST_FILE = "WWDC Scholars 2015/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
 			};
 			name = Debug;
@@ -590,8 +845,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WWDC Scholars 2015/WWDC Scholars 2015.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/WWDC",
+					Scholars,
+					2015,
 					"$(PROJECT_DIR)/WWDC",
 					Scholars,
 					2015,
@@ -599,6 +860,7 @@
 				INFOPLIST_FILE = "WWDC Scholars 2015/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
 			};
 			name = Release;
@@ -640,6 +902,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		409A24801B0E3619005509AF /* Build configuration list for PBXNativeTarget "WWDC Scholars 2015 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409A24811B0E3619005509AF /* Debug */,
+				409A24821B0E3619005509AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409A24831B0E3619005509AF /* Build configuration list for PBXNativeTarget "WWDC Scholars 2015 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409A24841B0E3619005509AF /* Debug */,
+				409A24851B0E3619005509AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C00C27351B0D5C9C008C19AE /* Build configuration list for PBXProject "WWDC Scholars 2015" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
