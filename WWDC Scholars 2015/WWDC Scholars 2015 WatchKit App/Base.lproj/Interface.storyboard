@@ -15,7 +15,11 @@
                                 <tableRow identifier="scholarCell" id="zci-PW-wVV" customClass="ScholarTableRow" customModule="WWDC_Scholars_2015_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="50" alignment="left" id="0fL-qW-Zg1">
                                         <items>
-                                            <imageView width="40" height="40" alignment="left" verticalAlignment="center" image="11358626_821050244645510_1909173720_n.jpg" contentMode="scaleAspectFill" id="EoF-JB-KYV"/>
+                                            <group width="40" height="40" alignment="left" verticalAlignment="center" radius="10" id="NhB-5v-kmM">
+                                                <items>
+                                                    <imageView width="40" height="40" alignment="center" verticalAlignment="center" image="11358626_821050244645510_1909173720_n.jpg" contentMode="scaleAspectFill" id="EoF-JB-KYV"/>
+                                                </items>
+                                            </group>
                                             <label width="0.90000000000000002" widthAdjustment="-25" height="1" alignment="left" verticalAlignment="center" text="Name" textAlignment="center" minimumScaleFactor="0.50000000000000011" id="FnN-UN-Et3"/>
                                         </items>
                                     </group>
